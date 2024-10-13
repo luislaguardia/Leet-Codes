@@ -1,1 +1,1 @@
-# My LeetCode cheatsheet / journal
+# LeetCode cheatsheet
