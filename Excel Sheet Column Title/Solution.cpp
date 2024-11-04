@@ -1,3 +1,5 @@
+// cpp
+
 class Solution {
 public:
     string convertToTitle(int columnNumber) {
@@ -10,7 +12,7 @@ public:
             columnNumber /= 26;
         }
         
-        reverse(result.begin(), result.end());  // Reverse the result as we build it backwards
+        reverse(result.begin(), result.end());
         return result;
     }
 };
