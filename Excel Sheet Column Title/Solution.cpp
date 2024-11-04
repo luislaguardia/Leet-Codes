@@ -4,10 +4,10 @@ public:
         string result;
         
         while (columnNumber > 0) {
-            columnNumber--;  // Adjust to make it 0-based
+            columnNumber--;
             int remainder = columnNumber % 26;
-            result += ('A' + remainder);  // Convert remainder to corresponding character
-            columnNumber /= 26;  // Move to the next position
+            result += ('A' + remainder);
+            columnNumber /= 26;
         }
         
         reverse(result.begin(), result.end());  // Reverse the result as we build it backwards
