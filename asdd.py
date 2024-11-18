@@ -1,3 +1,1 @@
-print ("a
-
-       to deletep
+print ("a")
