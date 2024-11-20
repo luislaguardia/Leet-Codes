@@ -1,7 +1,6 @@
 public class Solution {
     private final int[] lookup = new int[256];
 
-    // Precompute reverse bits for all 8-bit numbers
     public Solution() {
         for (int i = 0; i < 256; i++) {
             lookup[i] = reverse8Bits(i);
