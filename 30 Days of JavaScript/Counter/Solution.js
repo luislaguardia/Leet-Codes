@@ -1,4 +1,5 @@
 /**
+ * TAG: #2620
  * @param {number} n
  * @return {Function} counter
  */
