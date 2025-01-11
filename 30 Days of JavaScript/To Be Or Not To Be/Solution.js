@@ -1,5 +1,5 @@
 /**
- *
+ * TAG: #2704
  * @param {string | number | boolean} val
  * @return {Object}
  */
